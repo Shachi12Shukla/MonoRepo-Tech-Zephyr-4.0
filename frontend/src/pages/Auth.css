@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+}
+
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    background: #dff4ff;
+    color: #17233c;
+}
+
+/* =========================
+   LEFT SECTION
+========================= */
+
+.auth-hero {
+    width: 50%;
+    min-height: 100vh;
+    padding: 35px 55px;
+    background: #c9edff;
+    border-right: 4px solid #17233c;
+    position: relative;
+    overflow: hidden;
+}
+
+.auth-logo {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.auth-logo span {
+    margin-right: 8px;
+    color: #e5a928;
+}
+
+.hero-content {
+    max-width: 520px;
+    margin: 100px auto 0;
+}
+
+.hero-badge {
+    display: inline-block;
+    background: #17233c;
+    color: white;
+    padding: 9px 14px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.hero-content h1 {
+    margin: 22px 0 12px;
+    font-size: 44px;
+    line-height: 1.1;
+    font-weight: 900;
+}
+
+.hero-content > p {
+    max-width: 430px;
+    color: #52617a;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   CHARACTER CARD
+========================= */
+
+.character-card {
+    margin-top: 35px;
+    background: #f7fcff;
+    border: 3px solid #17233c;
+    box-shadow: 7px 7px 0 #17233c;
+
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    max-width: 390px;
+}
+
+.character-placeholder {
+    width: 90px;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #e8f8ff;
+    border: 3px solid #17233c;
+
+    font-size: 45px;
+}
+
+.character-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.character-info span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #65738b;
+    letter-spacing: 1px;
+}
+
+.character-info strong {
+    font-size: 21px;
+}
+
+.character-info small {
+    font-size: 11px;
+    color: #65738b;
+}
+
+.mini-xp {
+    width: 180px;
+    height: 9px;
+    background: #cbd4df;
+    border: 2px solid #17233c;
+}
+
+.mini-xp-fill {
+    width: 4%;
+    height: 100%;
+    background: #e5a928;
+}
+
+
+/* =========================
+   QUEST TIP
+========================= */
+
+.quest-tip {
+    margin-top: 30px;
+
+    display: flex;
+    gap: 14px;
+
+    max-width: 430px;
+
+    padding: 15px;
+
+    background: #fff7d6;
+    border: 2px solid #17233c;
+}
+
+.quest-tip > span {
+    width: 27px;
+    height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #e5a928;
+    color: #17233c;
+
+    font-weight: 900;
+}
+
+.quest-tip strong {
+    font-size: 13px;
+}
+
+.quest-tip p {
+    margin: 5px 0 0;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #59677c;
+}
+
+
+/* =========================
+   FORM SECTION
+========================= */
+
+.auth-form-section {
+    width: 50%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+}
+
+.auth-form-card {
+    width: 100%;
+    max-width: 470px;
+
+    background: #ffffff;
+
+    border: 3px solid #17233c;
+    box-shadow: 8px 8px 0 #17233c;
+
+    padding: 40px;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.auth-form-header {
+    margin-bottom: 28px;
+}
+
+.auth-form-header h2 {
+    margin: 0 0 8px;
+
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.auth-form-header p {
+    margin: 0;
+
+    color: #68768a;
+    font-size: 13px;
+}
+
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.form-row {
+    display: flex;
+    gap: 14px;
+}
+
+.form-group {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.form-group label {
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.form-group input {
+    width: 100%;
+
+    padding: 13px 14px;
+
+    border: 2px solid #9eabbc;
+    background: #f8fbfd;
+
+    color: #17233c;
+
+    font-size: 14px;
+
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #17233c;
+    background: white;
+    box-shadow: 3px 3px 0 #e5a928;
+}
+
+.form-error {
+    color: #c0392b;
+    font-size: 11px;
+    margin-top: -2px;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.auth-button {
+    margin-top: 8px;
+
+    width: 100%;
+    padding: 15px;
+
+    border: 3px solid #17233c;
+
+    background: #e5a928;
+    color: #17233c;
+
+    font-size: 13px;
+    font-weight: 900;
+
+    cursor: pointer;
+
+    box-shadow: 4px 4px 0 #17233c;
+    transition: 0.1s;
+}
+
+.auth-button:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 #17233c;
+}
+
+.auth-button:active {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}
+
+.auth-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+/* =========================
+   BOTTOM LINK
+========================= */
+
+.auth-switch {
+    margin-top: 25px;
+    text-align: center;
+
+    font-size: 12px;
+    color: #69768a;
+}
+
+.auth-switch a {
+    color: #17233c;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.auth-switch a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 850px) {
+
+    .auth-page {
+        flex-direction: column;
+    }
+
+    .auth-hero {
+        width: 100%;
+        min-height: auto;
+        padding: 25px;
+        border-right: none;
+        border-bottom: 4px solid #17233c;
+    }
+
+    .hero-content {
+        margin: 45px auto 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+    }
+
+    .character-card,
+    .quest-tip {
+        display: none;
+    }
+
+    .auth-form-section {
+        width: 100%;
+        padding: 30px 20px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .auth-form-card {
+        padding: 25px 20px;
+        box-shadow: 5px 5px 0 #17233c;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+}
