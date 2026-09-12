@@ -1,7 +1,9 @@
 import { Outlet } from "react-router-dom";
-import "../pages/Auth.css";
+
+import "../components/Auth.css";
 
 const AuthLayout = () => {
+
     return (
         <div className="auth-page">
 
@@ -12,18 +14,25 @@ const AuthLayout = () => {
                     LIFE RPG
                 </div>
 
+
                 <div className="hero-content">
 
                     <div className="hero-badge">
-                        ★ YOUR ADVENTURE BEGINS
+                        ★ YOUR REAL LIFE, YOUR ADVENTURE
                     </div>
 
-                    <h1>Begin Your Adventure</h1>
+
+                    <h1>
+                        Level Up Your Real Life
+                    </h1>
+
 
                     <p>
-                        Turn your everyday goals into quests,
-                        earn XP and level up your real life.
+                        Turn everyday goals into quests,
+                        earn XP, build streaks and progress
+                        toward your dreams.
                     </p>
+
 
                     <div className="character-card">
 
@@ -31,33 +40,47 @@ const AuthLayout = () => {
                             🧙
                         </div>
 
+
                         <div className="character-info">
 
-                            <span>NEW ADVENTURER</span>
+                            <span>
+                                LIFE RPG ADVENTURER
+                            </span>
 
-                            <strong>Level 1</strong>
+                            <strong>
+                                Level 1
+                            </strong>
+
 
                             <div className="mini-xp">
                                 <div className="mini-xp-fill"></div>
                             </div>
 
-                            <small>0 / 100 XP</small>
+
+                            <small>
+                                0 / 100 XP
+                            </small>
 
                         </div>
 
                     </div>
 
+
                     <div className="quest-tip">
 
                         <span>!</span>
 
+
                         <div>
 
-                            <strong>Quest Tip</strong>
+                            <strong>
+                                Quest Tip
+                            </strong>
 
                             <p>
-                                Complete real-life tasks to earn XP,
-                                level up and become your best self.
+                                Complete real-life tasks to
+                                earn XP, level up and become
+                                your best self.
                             </p>
 
                         </div>

@@ -1,0 +1,313 @@
+.quests-page {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+.quests-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.page-eyebrow {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: #6c7a91;
+    margin-bottom: 8px;
+}
+
+.quests-header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #17233c;
+}
+
+.quests-header p {
+    margin: 8px 0 0;
+    color: #68758a;
+}
+
+
+/* CREATE BUTTON */
+
+.create-quest-button {
+    border: 3px solid #17233c;
+    background: #f7c948;
+    color: #17233c;
+    padding: 13px 20px;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 #17233c;
+    transition: 0.15s;
+}
+
+.create-quest-button:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 #17233c;
+}
+
+
+/* FORM */
+
+.quest-form {
+    background: white;
+    border: 3px solid #17233c;
+    padding: 25px;
+    margin-bottom: 35px;
+    box-shadow: 6px 6px 0 #b7c9e2;
+}
+
+.form-title {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.form-title span {
+    font-size: 32px;
+}
+
+.form-title h2 {
+    margin: 0;
+    color: #17233c;
+}
+
+.form-title p {
+    margin: 4px 0 0;
+    color: #718096;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    font-size: 13px;
+    font-weight: 800;
+    color: #263550;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    border: 2px solid #aab8cc;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+    background: #f8fbff;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #17233c;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.submit-quest-button {
+    border: 3px solid #17233c;
+    background: #65d6a3;
+    color: #17233c;
+    padding: 13px 20px;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 #17233c;
+}
+
+.submit-quest-button:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 #17233c;
+}
+
+
+/* SECTION */
+
+.quest-section-header {
+    margin-bottom: 18px;
+}
+
+.quest-section-header h2 {
+    margin: 0;
+    color: #17233c;
+}
+
+.quest-section-header span {
+    font-size: 13px;
+    color: #78869b;
+}
+
+
+/* EMPTY */
+
+.quests-empty {
+    background: white;
+    border: 3px dashed #aab8cc;
+    padding: 55px 20px;
+    text-align: center;
+}
+
+.empty-icon {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.quests-empty h3 {
+    margin: 0;
+    color: #263550;
+}
+
+.quests-empty p {
+    color: #78869b;
+    margin: 8px 0 20px;
+}
+
+.quests-empty button {
+    border: 2px solid #17233c;
+    background: #e9f2ff;
+    padding: 10px 15px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+/* QUEST GRID */
+
+.quest-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+/* QUEST CARD */
+
+.quest-card {
+    background: white;
+    border: 3px solid #17233c;
+    padding: 20px;
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 0 #c3d1e3;
+}
+
+.quest-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quest-category-icon {
+    width: 42px;
+    height: 42px;
+    background: #edf5ff;
+    border: 2px solid #17233c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+
+
+.quest-card h3 {
+    margin: 18px 0 7px;
+    color: #17233c;
+    font-size: 18px;
+}
+
+.quest-description {
+    color: #718096;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.quest-rewards {
+    display: flex;
+    gap: 15px;
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+.quest-rewards div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+}
+
+.quest-card-footer {
+    border-top: 1px solid #d8e0eb;
+    margin-top: 15px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quest-card-footer span {
+    font-size: 12px;
+    font-weight: 800;
+    color: #78869b;
+}
+
+.delete-quest-button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delete-quest-button:hover {
+    transform: scale(1.15);
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+    .quest-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .quests-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .quest-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

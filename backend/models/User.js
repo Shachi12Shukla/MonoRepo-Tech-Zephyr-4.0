@@ -24,6 +24,37 @@ const userSchema = new mongoose.Schema(
         password: {
             type: String,
             required: true
+        },
+
+        // Player progression
+        level: {
+            type: Number,
+            default: 1
+        },
+
+        xp: {
+            type: Number,
+            default: 0
+        },
+
+        gold: {
+            type: Number,
+            default: 0
+        },
+
+        streak: {
+            type: Number,
+            default: 0
+        },
+
+        longestStreak: {
+            type: Number,
+            default: 0
+        },
+
+        lastQuestCompletedAt: {
+            type: Date,
+            default: null
         }
     },
     {
